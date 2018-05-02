@@ -1,0 +1,11 @@
+{
+	"folders":
+	[
+		{
+			"path": "src/vs_qual_trial"
+		},
+		{
+			"path": "src/iiwa_stack"
+		}
+	]
+}
