@@ -4,6 +4,110 @@
 		"selected_items":
 		[
 			[
+				"load",
+				"loadMeshObstacle"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"logi",
+				"logical_camera_1"
+			],
+			[
+				"P",
+				"Pose"
+			],
+			[
+				"move",
+				"move_group"
+			],
+			[
+				"ini",
+				"init_publishers"
+			],
+			[
+				"plannin",
+				"planning_scene_interface"
+			],
+			[
+				"col",
+				"collision_object_pub"
+			],
+			[
+				"colli",
+				"collision_object"
+			],
+			[
+				"add",
+				"addCollisionObjects"
+			],
+			[
+				"plan",
+				"planning_scene_interface"
+			],
+			[
+				"v",
+				"rviz_visual_tools"
+			],
+			[
+				"name",
+				"namespace"
+			],
+			[
+				"rvt",
+				"rvt"
+			],
+			[
+				"tra",
+				"trajectory_"
+			],
+			[
+				"poi",
+				"points"
+			],
+			[
+				"tareg",
+				"target_pose1"
+			],
+			[
+				"joint",
+				"joint_state_msg"
+			],
+			[
+				"Pus",
+				"Publisher"
+			],
+			[
+				"Ro",
+				"ROS_INFO"
+			],
+			[
+				"get",
+				"getCurrentState"
+			],
+			[
+				"rv",
+				"rviz_visual_tools"
+			],
+			[
+				"tar",
+				"target_pose1"
+			],
+			[
+				"ROS",
+				"ROS_INFO"
+			],
+			[
+				"ROS_INFO_STREAM",
+				"ROS_INFO_STREAM_THROTTLE"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
 				"comp",
 				"comp_class"
 			]
@@ -24,16 +128,16 @@
 			"file": "src/vs_qual_trial/src/vs_qual_node.cpp",
 			"settings":
 			{
-				"buffer_size": 4244,
+				"buffer_size": 16233,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/vs_qual_trial/src/qual1a.h",
+			"file": "src/vs_qual_trial/CMakeLists.txt",
 			"settings":
 			{
-				"buffer_size": 4533,
+				"buffer_size": 2323,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -75,20 +179,26 @@
 	},
 	"expanded_folders":
 	[
-		"/home/viraj/vs_ws/src/vs_qual_trial",
-		"/home/viraj/vs_ws/src/vs_qual_trial/config",
-		"/home/viraj/vs_ws/src/vs_qual_trial/src"
+		"/home/viraj/vs_ws/src/vs_qual_trial"
 	],
 	"file_history":
 	[
-		"/home/viraj/vs_ws/src/vs_qual_trial/src/vs_qual_node.cpp",
+		"/home/viraj/vs_ws/src/vs_qual_trial/launch/gear.launch",
+		"/home/viraj/vs_ws/src/vs_qual_trial/launch/vs_qual1a.launch",
+		"/home/viraj/vs_ws/src/iiwa_stack/iiwa_moveit/config/kinematics.yaml",
+		"/home/viraj/thoughts.txt",
+		"/home/viraj/vs_ws/src/vs_qual_trial/config/iiwa14.srdf",
+		"/home/viraj/vs_ws/src/vs_qual_trial/package.xml",
+		"/home/viraj/vs_ws/src/vs_qual_trial/iiwa_moveit/CMakeLists.txt",
+		"/home/viraj/vs_ws/src/vs_qual_trial/src/iiwa_moveit.cpp",
 		"/home/viraj/vs_ws/src/vs_qual_trial/src/qual1a.h",
+		"/home/viraj/vs_ws/src/vs_qual_trial/src/vs_qual_node.cpp",
 		"/home/viraj/vs_ws/src/vs_qual_trial/config/qual1a.yaml",
 		"/home/viraj/vs_ws/src/vs_qual_trial/CMakeLists.txt"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -102,6 +212,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"&comp_class",
+			"node",
+			"gear"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -109,6 +222,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"this"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -119,7 +233,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -158,15 +272,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4244,
+						"buffer_size": 16233,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3166,
-								3166
+								8901,
+								8901
 							]
 						],
 						"settings":
@@ -174,6 +288,34 @@
 							"syntax": "Packages/C++/C++.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 249.0,
+						"translation.y": 4047.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/vs_qual_trial/CMakeLists.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								261,
+								261
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 513.0,
@@ -181,47 +323,17 @@
 					},
 					"stack_index": 1,
 					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/vs_qual_trial/src/qual1a.h",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4533,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								297,
-								297
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 27.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 40.0
 	},
 	"layout":
 	{
@@ -254,7 +366,7 @@
 	"project": "ariac.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -292,7 +404,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 217.0,
+	"side_bar_width": 363.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
